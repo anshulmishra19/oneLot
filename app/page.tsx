@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
-import { Dealership } from "./components/Dealership";
+import { Loandeal } from "./components/Loandeal";
 import { Financing } from "./components/Financing";
 import { Dms } from "./components/Dms";
 import { WhyOneLot } from "./components/WhyOneLot";
@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <Dealership />
+      <Loandeal />
       <Financing />
       <Dms />
       <WhyOneLot />

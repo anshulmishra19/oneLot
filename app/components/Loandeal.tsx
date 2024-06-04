@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Dealerloanicon from "../../public/assets/dealerloanicon.svg";
-import Dmsicon from "../../public/assets/dmsicon.webp";
+import announcement from "../../public/assets/announcement.webp";
+import loanicon from "../../public/assets/loanicon.svg";
 
-export function Dealership() {
+export function Loandeal() {
   return (
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 px-4 sm:px-20 2xl:px-40 mt-10 py-5 border-t border-b">
       <div className="mb-3 sm:pr-20 sm:pt-10">
@@ -24,7 +24,7 @@ export function Dealership() {
       <div className="mb-3 2xl:pr-40 sm:pt-10">
         <div className="flex items-center mb-4">
           <Image
-            src={Dealerloanicon}
+            src={loanicon}
             loading="lazy"
             alt="icon"
             width={25}
@@ -46,7 +46,7 @@ export function Dealership() {
         <div className="mb-3 2xl:pr-40 sm:pt-10">
           <div className="flex items-center mb-4">
             <Image
-              src={Dmsicon}
+              src={announcement}
               loading="lazy"
               alt="icon"
               width={25}
